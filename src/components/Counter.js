@@ -80,17 +80,7 @@ class Counter extends React.Component {
           </button>
           <br />
           <br />
-          <div className="p8">
-            <div className="pad">
-              <label className="p2">Custom Input: </label>
-              <input
-                data-testid="custom-input"
-                value={this.state.customInput}
-                type="number"
-                onChange={this.customInputHandle}
-              ></input>
-            </div>
-          </div>
+          <div className="p8"></div>
           <button className="button buttonReset" onClick={this.handleReset}>
             Reset
           </button>
