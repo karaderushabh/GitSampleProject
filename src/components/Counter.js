@@ -70,6 +70,7 @@ class Counter extends React.Component {
         <div align="center">
           <h1 className="p3">Counter App</h1>
           <h2 className="p1" data-testid="counter">
+            <h3>Counter Project</h3>
             Count : {this.state.counter}
           </h2>
           <button className="button button1" onClick={this.handleIncrement}>
