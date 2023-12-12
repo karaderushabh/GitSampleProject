@@ -70,10 +70,14 @@ class Counter extends React.Component {
         <div align="center">
           <h1 className="p3">Counter App</h1>
           <h2 className="p1" data-testid="counter">
+<<<<<<< HEAD
             <h3>Counter Project New </h3>
             <h3>Counter Project New </h3>
             <h3>Counter Project New </h3>
             Count : {this.state.counter}
+=======
+            Counter new Count : {this.state.counter}
+>>>>>>> branch1
           </h2>
           <button className="button button1" onClick={this.handleIncrement}>
             Increment
@@ -83,17 +87,7 @@ class Counter extends React.Component {
           </button>
           <br />
           <br />
-          <div className="p4">
-            <div className="pad">
-              <label className="p2">Custom Input: </label>
-              <input
-                data-testid="custom-input"
-                value={this.state.customInput}
-                type="number"
-                onChange={this.customInputHandle}
-              ></input>
-            </div>
-          </div>
+          <div className="p8"></div>
           <button className="button buttonReset" onClick={this.handleReset}>
             Reset
           </button>
